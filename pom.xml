@@ -68,7 +68,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>mta</finalName>
+		<finalName>nta</finalName>
 		<plugins>
 			<!-- Set a JDK compiler level -->
 			<plugin>
@@ -93,7 +93,7 @@
 					<!-- MainClass in mainfest make a executable jar -->
 					<archive>
 						<manifest>
-							<mainClass>org.vmirrow.nta.MtaBoot</mainClass>
+							<mainClass>org.vmirrow.nta.NtaBoot</mainClass>
 						</manifest>
 					</archive>
 

@@ -13,7 +13,7 @@ import org.vmirrow.nta.service.Executor;
 /**
  * MtaBoot - main executable class.
  */
-public class MtaBoot {
+public class NtaBoot {
 
 	public static final String FILE_PROPERTY = "file";
 
@@ -31,7 +31,7 @@ public class MtaBoot {
 			return;
 		}
 
-		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(MtaConfig.class);
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(NtaConfig.class);
 		Parser parser = ctx.getBean(Parser.class);
 		List<TestSuite> suites = parser.parse(file);
 		Executor executor = ctx.getBean(Executor.class);

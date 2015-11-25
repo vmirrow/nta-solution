@@ -12,7 +12,7 @@ mvn package
 ```
 To run the application: 
 ```
-java -jar mta-jar-with-dependencies.jar --file=/tmp/calc_tests.mm
+java -jar nta-jar-with-dependencies.jar --file=/tmp/calc_tests.mm
 ```
 --file is mandotary parameter
 

@@ -5,6 +5,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan({"org.vmirrow.nta"})
-public class MtaConfig {
+public class NtaConfig {
 
 }

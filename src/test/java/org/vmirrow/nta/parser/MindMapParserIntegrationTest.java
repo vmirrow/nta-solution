@@ -12,11 +12,11 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.vmirrow.nta.MtaConfig;
+import org.vmirrow.nta.NtaConfig;
 import org.vmirrow.nta.model.TestSuite;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = MtaConfig.class)
+@ContextConfiguration(classes = NtaConfig.class)
 @Ignore
 public class MindMapParserIntegrationTest {
 	@Autowired
