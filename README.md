@@ -7,12 +7,12 @@ The task and requrements can be found here: https://github.com/neueda/homework/t
 
 ###Getting started
 Build and package the project by running: 
-...
+```
 mvn package
-...
+```
 To run the application: 
-...
+```
 java -jar mta-jar-with-dependencies.jar --file=/tmp/calc_tests.mm
-...
+```
 --file is mandotary parameter
 
