@@ -27,7 +27,7 @@ public class DefaultTestSuiteExecutor implements Executor {
 	private RestTemplate restTemplate = new RestTemplate();
 
 	@Autowired
-	private Reporter presenter;
+	private Reporter reporter;
 
 	public void executeAll(List<TestSuite> suites) {
 		//TODO parallelStream()
@@ -48,7 +48,7 @@ public class DefaultTestSuiteExecutor implements Executor {
 		} catch (HttpClientErrorException e) {
 			logger.error("Unable to request data from the remote endpoint", e);
 		}
-		presenter.flush(test);
+		reporter.flush(test);
 	}
 
 	private String buildGetRequest(TestCase test) {
