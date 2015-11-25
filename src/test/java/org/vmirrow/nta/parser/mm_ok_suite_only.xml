@@ -1,0 +1,29 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1383556086469" ID="ID_1910973038" MODIFIED="1422106052121" TEXT="Calculator tests">
+     <node CREATED="1383556132250" ID="ID_1382933124" MODIFIED="1383559189945" POSITION="right" TEXT="Multiply">
+           <node CREATED="1383557074323" ID="ID_718358945" MODIFIED="1383557341919" TEXT="Request">
+                 <node CREATED="1383557231134" ID="ID_853378638" MODIFIED="1422214809487" TEXT="Method: GET"/>
+                 <node CREATED="1383557247559" ID="ID_85326941" MODIFIED="1422107229556" TEXT="Path: /api/multiply"/>
+           </node>
+      </node>
+      <node CREATED="1383556132250" ID="ID_1382933124" MODIFIED="1383559189945" POSITION="right" TEXT="Multiply">
+           <node CREATED="1383557074323" ID="ID_718358945" MODIFIED="1383557341919" TEXT="Request">
+                 <node CREATED="1383557231134" ID="ID_853378638" MODIFIED="1422214809487" TEXT="Method: GET"/>
+                 <node CREATED="1383557247559" ID="ID_85326941" MODIFIED="1422107229556" TEXT="Path: /api/multiply"/>
+           </node>
+      </node>
+      <node CREATED="1383556132250" ID="ID_1382933124" MODIFIED="1383559189945" POSITION="right" TEXT="Multiply">
+           <node CREATED="1383557074323" ID="ID_718358945" MODIFIED="1383557341919" TEXT="Request">
+                 <node CREATED="1383557231134" ID="ID_853378638" MODIFIED="1422214809487" TEXT="Method: GET"/>
+                 <node CREATED="1383557247559" ID="ID_85326941" MODIFIED="1422107229556" TEXT="Path: /api/multiply"/>
+           </node>
+      </node>
+      <node CREATED="1383556132250" ID="ID_1382933124" MODIFIED="1383559189945" POSITION="right" TEXT="Multiply">
+           <node CREATED="1383557074323" ID="ID_718358945" MODIFIED="1383557341919" TEXT="Request">
+                 <node CREATED="1383557231134" ID="ID_853378638" MODIFIED="1422214809487" TEXT="Method: GET"/>
+                 <node CREATED="1383557247559" ID="ID_85326941" MODIFIED="1422107229556" TEXT="Path: /api/multiply"/>
+           </node>
+      </node>
+</node>
+</map>
