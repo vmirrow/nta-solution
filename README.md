@@ -14,5 +14,5 @@ To run the application:
 ```
 java -jar nta-jar-with-dependencies.jar --file=/tmp/calc_tests.mm
 ```
---file is mandotary parameter
+--file=path_to_file is mandotary parameter
 
